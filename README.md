@@ -30,11 +30,11 @@ Every month you have 2000 free minutes from GitHub.</br>
 Different Operating Systems costs different amounts of minutes, see [billing for GitHub Actions](https://help.github.com/en/github/setting-up-and-managing-billing-and-payments-on-github/about-billing-for-github-actions#about-billing-for-github-actions)</br>
 So building for all three Operating Systems will cost 130 minutes (20 * 2+10 * 1+8 * 10)</br>
 That is why we recommend you to modify the **os** line to only build for the OS that you need.
-|Operating System|Minutes|Minute multiplier
-|---|---|---|
-|Windows|20|2|
-|Ubuntu|10|1|
-|macOS|8|10|
+| Operating System | Minutes | Minute multiplier |
+| ---------------- | ------- | ----------------- |
+| Windows          | 20      | 2                 |
+| Ubuntu           | 10      | 1                 |
+| macOS            | 8       | 10                |
 
 # References to other Aseprite builders
 - https://github.com/haxpor/aseprite-macos-buildsh => Script which lets you build automatically on macOS
@@ -43,4 +43,4 @@ That is why we recommend you to modify the **os** line to only build for the OS 
 # Support Aseprite
 Keep supporting Aseprite at https://aseprite.org/#buy
 
-## Test
+Trigger Action 
